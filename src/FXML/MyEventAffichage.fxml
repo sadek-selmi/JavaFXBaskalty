@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Pagination?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="kbir" prefHeight="466.0" prefWidth="638.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controlleur.MyEventController">
+   <children>
+      <AnchorPane fx:id="box1" layoutX="27.0" layoutY="23.0" prefHeight="180.0" prefWidth="271.0" style="-fx-border-color: #000000; -fx-background-color: #ddd5d5;">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <children>
+            <ImageView fx:id="image1" fitHeight="107.0" fitWidth="107.0" layoutX="4.0" layoutY="41.0" pickOnBounds="true" preserveRatio="true" />
+            <Label layoutX="116.0" layoutY="51.0" prefHeight="17.0" prefWidth="66.0" text="Place :">
+               <font>
+                  <Font name="Arial Black" size="15.0" />
+               </font></Label>
+            <Text layoutX="116.0" layoutY="129.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Price :" wrappingWidth="59.306640625">
+               <font>
+                  <Font name="Arial Black" size="15.0" />
+               </font></Text>
+            <Button contentDisplay="RIGHT" layoutX="188.0" layoutY="152.0" mnemonicParsing="false" onAction="#details0" prefHeight="29.0" prefWidth="83.0" style="-fx-background-color: #242424;" text="Update " textFill="#5bff97" textOverrun="CLIP">
+               <font>
+                  <Font name="System Bold Italic" size="13.0" />
+               </font></Button>
+            <Label layoutX="116.0" layoutY="83.0" prefHeight="23.0" prefWidth="99.0" text="Address :">
+               <font>
+                  <Font name="Arial Black" size="15.0" />
+               </font></Label>
+            <Label fx:id="nom1" alignment="CENTER" layoutX="-1.0" layoutY="-4.0" prefHeight="39.0" prefWidth="273.0" style="-fx-background-color: #242424;" text="Label" textFill="WHITE">
+               <font>
+                  <Font name="Arial Black" size="20.0" />
+               </font></Label>
+            <Label fx:id="categorie1" layoutX="208.0" layoutY="54.0" text="Label" textFill="#570c0c">
+               <font>
+                  <Font name="Arial Black" size="13.0" />
+               </font></Label>
+            <Label fx:id="reference1" layoutX="208.0" layoutY="86.0" text="Label" textFill="#570c0c">
+               <font>
+                  <Font name="Arial Black" size="13.0" />
+               </font></Label>
+            <Label fx:id="prix1" layoutX="194.0" layoutY="115.0" text="Label" textFill="#570c0c">
+               <font>
+                  <Font name="Arial Black" size="13.0" />
+               </font></Label>
+            <Button contentDisplay="RIGHT" layoutX="99.0" layoutY="152.0" mnemonicParsing="false" onMouseClicked="#Sup1" prefHeight="29.0" prefWidth="83.0" style="-fx-background-color: #242424;" text="Delete" textFill="RED" textOverrun="CLIP">
+               <font>
+                  <Font name="System Bold Italic" size="13.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="box2" layoutX="330.0" layoutY="24.0" prefHeight="180.0" prefWidth="271.0" style="-fx-border-color: #000000; -fx-background-color: #ddd5d5;">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <children>
+            <ImageView fx:id="image2" fitHeight="130.0" fitWidth="99.0" layoutX="6.0" layoutY="40.0" pickOnBounds="true" preserveRatio="true" />
+            <Label layoutX="121.0" layoutY="42.0" prefHeight="17.0" prefWidth="66.0" text="Place :">
+               <font>
+                  <Font name="Arial Black" size="15.0" />
+               </font></Label>
+            <Text layoutX="120.0" layoutY="128.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Price :" wrappingWidth="59.306640625">
+               <font>
+                  <Font name="Arial Black" size="15.0" />
+               </font></Text>
+            <Label layoutX="112.0" layoutY="79.0" prefHeight="23.0" prefWidth="83.0" text="Adress :">
+               <font>
+                  <Font name="Arial Black" size="15.0" />
+               </font></Label>
+            <Label fx:id="categorie2" layoutX="194.0" layoutY="45.0" text="Label" textFill="#570c0c">
+               <font>
+                  <Font name="Arial Black" size="13.0" />
+               </font></Label>
+            <Label fx:id="reference2" layoutX="208.0" layoutY="82.0" text="Label" textFill="#541313">
+               <font>
+                  <Font name="Arial Black" size="13.0" />
+               </font></Label>
+            <Label fx:id="prix2" layoutX="201.0" layoutY="114.0" text="Label" textFill="#570c0c">
+               <font>
+                  <Font name="Arial Black" size="13.0" />
+               </font></Label>
+            <Label fx:id="nom2" alignment="CENTER" layoutX="1.0" layoutY="-3.0" prefHeight="39.0" prefWidth="278.0" style="-fx-background-color: #242424;" text="Label" textFill="WHITE">
+               <font>
+                  <Font name="Arial Black" size="20.0" />
+               </font>
+            </Label>
+            <Button contentDisplay="RIGHT" layoutX="195.0" layoutY="145.0" mnemonicParsing="false" onAction="#details1" prefHeight="29.0" prefWidth="83.0" style="-fx-background-color: #242424;" text="Update " textFill="#5bff97" textOverrun="CLIP">
+               <font>
+                  <Font name="System Bold Italic" size="13.0" />
+               </font>
+            </Button>
+            <Button contentDisplay="RIGHT" layoutX="99.0" layoutY="145.0" mnemonicParsing="false" onMouseClicked="#Sup2" prefHeight="29.0" prefWidth="83.0" style="-fx-background-color: #242424;" text="Delete" textFill="RED" textOverrun="CLIP">
+               <font>
+                  <Font name="System Bold Italic" size="13.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="box3" layoutX="26.0" layoutY="226.0" prefHeight="180.0" prefWidth="271.0" style="-fx-border-color: #000000; -fx-background-color: #ddd5d5;">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <children>
+            <ImageView fx:id="image3" fitHeight="130.0" fitWidth="99.0" layoutX="4.0" layoutY="44.0" pickOnBounds="true" preserveRatio="true" />
+            <Label layoutX="117.0" layoutY="51.0" prefHeight="17.0" prefWidth="66.0" text="Place :" textFill="#070000">
+               <font>
+                  <Font name="Arial Black" size="15.0" />
+               </font></Label>
+            <Text layoutX="120.0" layoutY="129.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Price :" wrappingWidth="59.306640625">
+               <font>
+                  <Font name="Arial Black" size="15.0" />
+               </font></Text>
+            <Label layoutX="112.0" layoutY="79.0" prefHeight="17.0" prefWidth="76.0" text="Adress :">
+               <font>
+                  <Font name="Arial Black" size="15.0" />
+               </font></Label>
+            <Label fx:id="categorie3" layoutX="196.0" layoutY="54.0" text="Label" textFill="#570c0c">
+               <font>
+                  <Font name="Arial Black" size="13.0" />
+               </font></Label>
+            <Label fx:id="reference3" layoutX="208.0" layoutY="84.0" text="Label" textFill="#570c0c">
+               <font>
+                  <Font name="Arial Black" size="13.0" />
+               </font></Label>
+            <Label fx:id="prix3" layoutX="180.0" layoutY="115.0" text="Label" textFill="#570c0c">
+               <font>
+                  <Font name="Arial Black" size="13.0" />
+               </font></Label>
+            <Label fx:id="nom3" alignment="CENTER" layoutX="1.0" prefHeight="39.0" prefWidth="273.0" style="-fx-background-color: #242424;" text="Label" textFill="WHITE">
+               <font>
+                  <Font name="Arial Black" size="20.0" />
+               </font>
+            </Label>
+            <Button contentDisplay="RIGHT" layoutX="191.0" layoutY="145.0" mnemonicParsing="false" onAction="#details3" prefHeight="29.0" prefWidth="83.0" style="-fx-background-color: #242424;" text="Update " textFill="#5bff97" textOverrun="CLIP">
+               <font>
+                  <Font name="System Bold Italic" size="13.0" />
+               </font>
+            </Button>
+            <Button contentDisplay="RIGHT" layoutX="96.0" layoutY="145.0" mnemonicParsing="false" onMouseClicked="#Sup3" prefHeight="29.0" prefWidth="83.0" style="-fx-background-color: #242424;" text="Delete" textFill="RED" textOverrun="CLIP">
+               <font>
+                  <Font name="System Bold Italic" size="13.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="box4" layoutX="331.0" layoutY="226.0" prefHeight="180.0" prefWidth="282.0" style="-fx-border-color: #000000; -fx-background-color: #ddd5d5;">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <children>
+            <ImageView fx:id="image4" fitHeight="130.0" fitWidth="113.0" layoutX="2.0" layoutY="41.0" pickOnBounds="true" preserveRatio="true" />
+            <Label layoutX="119.0" layoutY="53.0" prefHeight="17.0" prefWidth="66.0" text="Place :" textFill="#110101">
+               <font>
+                  <Font name="Arial Black" size="15.0" />
+               </font></Label>
+            <Text layoutX="122.0" layoutY="131.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Price : " wrappingWidth="59.306640625">
+               <font>
+                  <Font name="Arial Black" size="15.0" />
+               </font></Text>
+            <Label layoutX="119.0" layoutY="83.0" prefHeight="23.0" prefWidth="83.0" text="Adress :">
+               <font>
+                  <Font name="Arial Black" size="15.0" />
+               </font></Label>
+            <Label fx:id="categorie4" layoutX="208.0" layoutY="54.0" text="Label" textFill="#570c0c">
+               <font>
+                  <Font name="Arial Black" size="13.0" />
+               </font></Label>
+            <Label fx:id="reference4" layoutX="215.0" layoutY="84.0" text="Label" textFill="#570c0c">
+               <font>
+                  <Font name="Arial Black" size="13.0" />
+               </font></Label>
+            <Label fx:id="prix4" layoutX="211.0" layoutY="115.0" prefHeight="17.0" prefWidth="36.0" text="Label" textFill="#570c0c">
+               <font>
+                  <Font name="Arial Black" size="13.0" />
+               </font></Label>
+            <Label fx:id="nom4" alignment="CENTER" layoutX="-2.0" prefHeight="39.0" prefWidth="282.0" style="-fx-background-color: #242424;" text="Label" textFill="WHITE">
+               <font>
+                  <Font name="Arial Black" size="20.0" />
+               </font>
+            </Label>
+            <Button contentDisplay="RIGHT" layoutX="195.0" layoutY="142.0" mnemonicParsing="false" onAction="#details14" prefHeight="29.0" prefWidth="83.0" style="-fx-background-color: #242424;" text="Update " textFill="#5bff97" textOverrun="CLIP">
+               <font>
+                  <Font name="System Bold Italic" size="13.0" />
+               </font>
+            </Button>
+            <Button contentDisplay="RIGHT" layoutX="100.0" layoutY="142.0" mnemonicParsing="false" onMouseClicked="#Sup4" prefHeight="29.0" prefWidth="83.0" style="-fx-background-color: #242424;" text="Delete" textFill="RED" textOverrun="CLIP">
+               <font>
+                  <Font name="System Bold Italic" size="13.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <Pagination fx:id="paginator" layoutX="178.0" layoutY="421.0" prefHeight="39.0" prefWidth="282.0" />
+   </children>
+</AnchorPane>

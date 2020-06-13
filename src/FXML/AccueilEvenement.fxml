@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" fx:id="holderPane" prefHeight="598.0" prefWidth="809.0" stylesheets="@../../../Font/font.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controlleur.AccueilEvenementController">
+   <children>
+      <Pane prefHeight="604.0" prefWidth="202.0" style="-fx-background-color: #242424;">
+         <children>
+            <ImageView fitHeight="73.0" fitWidth="177.0" layoutX="25.0" layoutY="38.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/logo.png" />
+               </image>
+            </ImageView>
+            <Line endX="80.0" endY="19.0" layoutX="6.0" layoutY="144.0" startX="-7.0" startY="19.0" stroke="#cbcbc3" />
+            <AnchorPane layoutX="-1.0" layoutY="142.0" prefHeight="148.0" prefWidth="209.0">
+               <children>
+                  <Label alignment="CENTER" layoutX="39.0" layoutY="34.0" prefHeight="27.0" prefWidth="131.0" style="-fx-font-family: Barlow Regular;" text="Here, you find the" textFill="#cbcbc3">
+                     <font>
+                        <Font name="Century Gothic Bold" size="13.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="16.0" layoutY="60.0" prefHeight="27.0" prefWidth="177.0" style="-fx-font-family: Barlow Regular;" text="information about" textFill="#cbcbc3">
+                     <font>
+                        <Font name="Century Gothic Bold" size="13.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="39.0" layoutY="88.0" prefHeight="27.0" prefWidth="131.0" style="-fx-font-family: Barlow Regular;" text="our events" textFill="#cbcbc3">
+                     <font>
+                        <Font name="Century Gothic Bold" size="13.0" />
+                     </font>
+                  </Label>
+                  <Line endX="74.0" endY="-19.0" layoutX="16.0" layoutY="154.0" startX="-16.0" startY="-19.0" stroke="#cbcbc3" />
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="1.0" layoutY="279.0" prefHeight="245.0" prefWidth="206.0">
+               <children>
+                  <JFXButton fx:id="mesProduits" alignment="CENTER" contentDisplay="CENTER" layoutX="7.0" layoutY="103.0" onAction="#Mesevenement" prefHeight="40.0" prefWidth="202.0" styleClass="buttonDashboard" stylesheets="@../../../Style/buttonStyle.css" text="My Events" textFill="#cbcbcb">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </JFXButton>
+                  <JFXButton fx:id="btnajouter" alignment="CENTER" contentDisplay="CENTER" layoutX="3.0" layoutY="151.0" onAction="#ajouterEvenement" prefHeight="40.0" prefWidth="202.0" styleClass="buttonDashboard" stylesheets="@../../../Style/buttonStyle.css" text="Add Event" textFill="#cbcbcb">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </JFXButton>
+                  <JFXButton fx:id="gererMesProduits" alignment="TOP_RIGHT" contentDisplay="RIGHT" layoutX="-59.0" layoutY="204.0" onAction="#GererEvenement" prefHeight="40.0" prefWidth="202.0" styleClass="buttonDashboard" stylesheets="@../../../Style/buttonStyle.css" text="Statistical" textFill="#cbcbcb">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </JFXButton>
+                  <ImageView fitHeight="56.0" fitWidth="26.0" layoutX="18.0" layoutY="211.0" pickOnBounds="true" preserveRatio="true" style="-fx-backgorund-color: white;">
+                     <image>
+                        <Image url="@../Images/92647698_2663287580571870_7699823377480941568_n.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="56.0" fitWidth="26.0" layoutX="18.0" layoutY="110.0" pickOnBounds="true" preserveRatio="true" style="-fx-backgorund-color: white;">
+                     <image>
+                        <Image url="@../Images/92571524_1530264090481423_8598503446892511232_n.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="56.0" fitWidth="26.0" layoutX="18.0" layoutY="158.0" pickOnBounds="true" preserveRatio="true" style="-fx-backgorund-color: white;">
+                     <image>
+                        <Image url="@../Images/ic_local_hospital_white_48dp.png" />
+                     </image>
+                  </ImageView>
+                  <JFXButton fx:id="Event" layoutX="35.0" layoutY="51.0" onAction="#Evenement" prefHeight="39.0" prefWidth="138.0" text="Events" textFill="#cbcbcb">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </JFXButton>
+                  <ImageView fitHeight="56.0" fitWidth="26.0" layoutX="22.0" layoutY="58.0" pickOnBounds="true" preserveRatio="true" style="-fx-backgorund-color: white;">
+                     <image>
+                        <Image url="@../Images/92571524_1530264090481423_8598503446892511232_n.png" />
+                     </image>
+                  </ImageView>
+                  <Label alignment="CENTER" layoutX="-8.0" layoutY="6.0" prefHeight="40.0" prefWidth="209.0" style="-fx-font-family: Barlow Regular;" text="Menu" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <JFXButton fx:id="contacteznous" layoutX="32.0" layoutY="555.0" onAction="#contactezNous" prefHeight="27.0" prefWidth="138.0" style="-fx-border-color: #FFFF; -fx-font-family: Barlow Regular;" text="CONTACT US" textFill="#cbcbcb">
+               <font>
+                  <Font size="13.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </JFXButton>
+            <Separator layoutX="24.0" layoutY="524.0" prefHeight="31.0" prefWidth="155.0" />
+         </children>
+      </Pane>
+      <Pane layoutX="202.0" layoutY="-3.0" prefHeight="92.0" prefWidth="610.0" style="-fx-background-color: #242424;">
+         <children>
+            <Text fill="#cbcbc3" layoutX="166.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: Barlow Regular;" text="Bienvenue" textAlignment="CENTER" wrappingWidth="181.71875">
+               <font>
+                  <Font name="Century Gothic" size="25.0" />
+               </font>
+            </Text>
+            <ImageView fx:id="logout" fitHeight="56.0" fitWidth="40.0" layoutX="551.0" layoutY="27.0" onMouseClicked="#Logout" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/log-out.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="user" fitHeight="56.0" fitWidth="26.0" layoutX="516.0" layoutY="33.0" onMouseClicked="#ModifierProfile" pickOnBounds="true" preserveRatio="true" style="-fx-backgorund-color: white;">
+               <image>
+                  <Image url="@../Images/Person-Male-Light-icon.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <AnchorPane fx:id="holderPane" layoutX="202.0" layoutY="89.0" prefHeight="515.0" prefWidth="610.0" />
+   </children>
+</AnchorPane>

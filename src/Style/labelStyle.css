@@ -1,0 +1,44 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 18 avr. 2020, 05:10:17
+    Author     : benha
+*/
+.labelCenter
+{
+     -fx-font-family : 'Barlow Regular';
+    -fx-font-size : 16;
+    -fx-text-fill:black;
+    -fx-alignment :center;
+}
+.labelBold
+{
+    -fx-font-family : 'Barlow bold';
+    -fx-font-size : 16;
+    -fx-text-fill:black;
+}
+.labelNormal
+{
+     -fx-font-family : 'Barlow Regular';
+    -fx-font-size : 16;
+    -fx-text-fill:black;
+    
+}
+
+.labelbold2
+{
+    -fx-font-family : 'Barlow bold';
+    -fx-font-size : 14;
+    -fx-text-fill:black;
+}
+
+.labelNormal2
+{
+     -fx-font-family : 'Barlow Regular';
+    -fx-font-size : 14;
+    -fx-text-fill:black;
+    
+}

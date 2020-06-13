@@ -1,0 +1,40 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 18 avr. 2020, 01:07:06
+    Author     : benha
+*/
+@font-face {
+    font-family: "Roboto Regular";
+    /*font-style: normal;*/
+   /* font-weight: 300;*/
+    src: url("Roboto-Regular.ttf");
+}
+
+
+@font-face {
+    font-family: "OpenSans Regular";
+    /*font-style: normal;*/
+   /* font-weight: 300;*/
+    src: url("OpenSans-Regular.ttf");
+}
+
+
+@font-face {
+    font-family: "Barlow Regular";
+    /*font-style: normal;*/
+   /* font-weight: 300;*/
+    src: url("Barlow-Regular.ttf");
+}
+
+
+@font-face {
+    font-family: "Barlow bold";
+    /*font-style: normal;*/
+   /* font-weight: 300;*/
+    src: url("Barlow-Bold.ttf");
+}
+
